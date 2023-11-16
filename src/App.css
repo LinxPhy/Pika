@@ -4,8 +4,26 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    --background_colour: #f9f9f9;
+    --default_colour: #f2c763;
 }
 
 body{
     font-family: 'Baloo Paaji 2', sans-serif;
+    background-color: var(--background_colour);
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+}
+
+input, button{
+    font-family: 'Baloo Paaji 2', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 2rem;
 }
