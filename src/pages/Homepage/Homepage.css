@@ -1,0 +1,17 @@
+
+
+.Homepage{
+    display: flex;
+}
+
+.navigation{
+    flex: 0 0 400px;
+}
+
+.main{
+    flex: 0 0 850px;
+}
+
+.overview{
+    flex: 0 0 120px;
+}

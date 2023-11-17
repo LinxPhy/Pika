@@ -1,0 +1,21 @@
+
+
+.Overview{
+    display: flex;
+    flex-direction: column;
+}
+
+.Overview p{
+    font-weight: 600;
+    text-align: center;
+}
+
+.scores{
+    position: relative;
+}
+
+.score{
+    position: absolute;
+    top: 37px;
+    left: 38px;
+}

@@ -1,0 +1,13 @@
+
+
+.GamesNavigation{ 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.GamesNavigation div{ 
+    width: 5px;
+    height: 5px;
+    background-color: black;
+}

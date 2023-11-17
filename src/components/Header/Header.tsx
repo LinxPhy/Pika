@@ -16,10 +16,29 @@ const Header = () => {
 
             <nav>
                 <ul>
-                    <li className='header-wrapper'><img src={Home}></img>Home</li>
-                    <li className='header-wrapper'><img src={Globe}></img>Explore</li>
-                    <li className='header-wrapper'><img src={Timeline}></img>Timeline</li>
-                    <li className='header-wrapper'><img src={Content}></img>Reviews</li>
+                    <li className='header-wrapper'>
+                        <img src={Home}></img>
+                        Home
+                        <span></span>
+                    </li>
+
+                    <li className='header-wrapper'>
+                        <img src={Globe}></img>
+                        Explore
+                        <span></span>
+                    </li>
+
+                    <li className='header-wrapper'>
+                        <img src={Timeline}></img>
+                        Timeline
+                        <span></span>
+                    </li>
+
+                    <li className='header-wrapper'>
+                        <img src={Content}></img>
+                        Reviews
+                        <span></span>
+                    </li>
                 </ul>
             </nav>
 
