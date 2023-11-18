@@ -1,0 +1,17 @@
+
+
+.Article h2{
+    margin-bottom: 20px;
+    font-size: 2.2rem;
+    color: var(--default_colour);
+}
+
+.Article section{
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.Article span{
+    color: gray;
+    font-size: 0.9rem;
+}

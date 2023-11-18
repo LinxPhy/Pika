@@ -1,0 +1,21 @@
+
+
+.StatsNavigation{
+    background-color: transparent ;
+    box-shadow: none;
+    width: 100%;
+}
+
+.StatsNavigation ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.StatsNavigation ul li{
+    background-color: white;
+    border-radius: 15px;
+    padding: 6px 15px;
+    border: 2px solid var(--default_colour);
+}

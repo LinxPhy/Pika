@@ -1,0 +1,25 @@
+
+.Vote{
+    flex-grow: 1;
+    width: min-content;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.Vote button{
+    border: none;
+    background-color: var(--default_colour);
+    padding: 6px 10px 6px 20px;
+    border-radius: 15px;
+    color: black;
+
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+

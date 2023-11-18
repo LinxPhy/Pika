@@ -5,13 +5,27 @@
 }
 
 .navigation{
-    flex: 0 0 400px;
+    flex: 0 0 340px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .main{
     flex: 0 0 850px;
 }
 
+.moreContent{
+    display: inline-flex;
+    width: 100%;
+    gap: 20px;
+    padding: 20px;
+}
+
 .overview{
     flex: 0 0 120px;
+}
+
+.main-article{
+    padding: 20px;
 }

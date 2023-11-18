@@ -1,0 +1,13 @@
+
+.Information{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.Information > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
